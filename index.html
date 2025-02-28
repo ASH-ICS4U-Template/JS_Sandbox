@@ -1,21 +1,86 @@
-<html>
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/AcZssZ2uIaxLUf1Gd37XDeKbT6NtlhppglwjpcxdSeo=?gv=true',
-      color: '#6a0225',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
-
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #8e44ad;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        li {
+            background-color: #ecf0f1;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .highlight {
+            color: #c0392b;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Before You Book Your Event, Read This!</h1>
+        <ul>
+            <li><span class="highlight">1. Click "Book Event":</span> You'll see the Introduction to the Booking Page. Click the big box that says "ASH Events Booking Form" to move on.</li>
+            <li><span class="highlight">2. Pick Your Date and Time:</span> Choose when you want your event to start. A new form will pop up for you to fill in all the details. Don't worry, we'll confirm everything, including the end time, since Google Calendar doesn't let you set one.</li>
+            <li><span class="highlight">3. Share the Details:</span> All info goes to me, my Tek team, Kristine, Angela, and Bryan. Be as detailed as possible. If you need to add more, go ahead!</li>
+            <li><span class="highlight">4. More Details = Better Events:</span> The more info you give, the easier it is for us and the custodians to set up your amazing event.</li>
+            <li><span class="highlight">5. Not Applicable?</span> If something doesn't apply to you, just put "NA."</li>
+            <li><span class="highlight">6. Book Early:</span> Try to book as early as possible, especially for after-school events.</li>
+        </ul>
+        <h2>AV Equipment We Offer:</h2>
+        <ul>
+            <li>Stage Sound System (Cafetorium Only, wireless or wired mics)</li>
+            <li>Stage Lighting System (Cafetorium Only)</li>
+            <li>Speaker and Microphone (other locations, wireless or wired mics)</li>
+            <li>Portable Sound System (other locations)</li>
+            <li>Projector</li>
+            <li>No Tech Required</li>
+            <li>Large rolling SMART TV (for presentations in the Atrium, etc.)</li>
+        </ul>
+        <h2>Locations We Serve:</h2>
+        <ul>
+            <li>Atrium</li>
+            <li>Cafetorium Gym (whole gym, stage half, or back half)</li>
+            <li>Stage Only</li>
+            <li>Wood Floor Gym</li>
+            <li>Multi-Purpose Room (N106)</li>
+            <li>Learning Commons</li>
+            <li>Other (Specify in Event Details)</li>
+        </ul>
+        <div class="footer">
+            Ready to book your event? 😄
+        </div>
+    </div>
+</body>
 </html>
